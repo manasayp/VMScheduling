@@ -1,0 +1,45 @@
+{
+  "algo": "CREDIT",
+  "numVM": 4,
+  "groupCredits": [
+    600, 300, 400, 500
+  ],
+  "vcpuCredits": [
+    256,
+    512,
+    256,
+    500,
+    200,
+    256,
+    512,
+    500,
+    300,
+    500
+    ],
+  "groups" : [
+    {
+      "groupId" : 1,
+      "tasksNum" : 300,
+      "exeTime" : 10,
+      "type" : "IoTask"
+    },
+    {
+      "groupId" : 2,
+      "tasksNum" : 300,
+      "exeTime" : 9,
+      "type" : "NonIoTask"
+    },
+    {
+      "groupId" : 3,
+      "tasksNum" : 300,
+      "exeTime" : 8,
+      "type" : "IoTask"
+    },
+    {
+      "groupId" : 4,
+      "tasksNum" : 300,
+      "exeTime" : 7,
+      "type" : "NonIoTask"
+    }
+  ]
+}
